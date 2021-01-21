@@ -1,6 +1,6 @@
 :root {
 --main_b_color_01: #07090e;
---main_b_color_02: rgb(22, 27, 34);
+--main_b_color_02: #161b22;
 --main_b_color_03: #010409;
 --main_f_color_01: #c8d1d9;
 --border_color_01: #30363d;
@@ -36,7 +36,7 @@ a.qmc-startpagetile.ng-scope:hover {
 }
 
 div.qmc-primaryNavCol {
-  background-color: var(--main_b_color_03) !important;
+  background-color: var(--main_b_color_01) !important;
 }
 
 div.qmc-property-edit-groups {
