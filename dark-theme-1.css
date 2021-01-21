@@ -14,6 +14,10 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+div qmc-framework qmc-toolbar {
+  background-color: var(--main_b_color_01) !important;
+}
+
 .qmc-route-stage-container .qmc-overview-body {
   background-color: var(--main_b_color_01);
   color: var(--main_f_color_01);

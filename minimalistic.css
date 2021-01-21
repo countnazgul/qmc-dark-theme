@@ -7,7 +7,27 @@ h6.qmc-primary-navigation-group-label.ng-binding {
 }
 
 div qmc-framework qmc-toolbar {
+  /*   display: none; */
+}
+
+#qmc\.toolbar\.navigate {
   display: none;
+}
+
+.button-icon.icon-qmc-home.icon-small {
+  display: none;
+}
+
+#qmc\.toolbar\.help {
+  display: none;
+}
+
+#qmc\.toolbar\.helpNavigate {
+  display: none;
+}
+
+#qmc\.toolbar\.start > .qmc-button {
+  font-size: 16px;
 }
 
 .qmc-primaryNavCol {
