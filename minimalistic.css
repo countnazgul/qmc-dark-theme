@@ -1,77 +1,77 @@
 div div qmc-home-tiles {
-    display: none;
+  display: none;
 }
 
 h6.qmc-primary-navigation-group-label.ng-binding {
-    display: none;
+  display: none;
 }
 
 div qmc-framework qmc-toolbar {
-    display: none;
+  display: none;
 }
 
 .qmc-primaryNavCol {
-    height: 100vh;
-    width: 100vw !important;
+  height: 100vh;
+  width: 100vw !important;
 }
 
 .qmc-primary-navigation-list {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    width: 100vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  width: 100vw;
 }
 
 .qmc-primary-navigation-list-item {
-    flex-grow: 1;
+  flex-grow: 1;
 }
 
-qmc-primary-navigation-item .qmc-primary-navigation-item-link .qmc-primary-navigation-item-label {
-    margin-left: 0px !important;
-    padding-left: 5px
+qmc-primary-navigation-item
+  .qmc-primary-navigation-item-link
+  .qmc-primary-navigation-item-label {
+  margin-left: 0px !important;
+  padding-left: 5px;
 }
-
-
 
 .qmc-primary-navigation-item-link {
-    font-size: 20px;
-    font-weight: bold;
-    padding: 0px !important;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0px !important;
 }
 
-qmc-primary-navigation-group .qmc-primary-navigation-group-list .qmc-primary-navigation-group-list-item {
-    height: 48px;
+qmc-primary-navigation-group
+  .qmc-primary-navigation-group-list
+  .qmc-primary-navigation-group-list-item {
+  height: 48px;
 }
 
 .qmc-primary-navigation-list-item {
-    margin: 0px !important
+  margin: 0px !important;
 }
 
-
 div.qmc-primary-navigation-item-label {
-    height: 41px;
-    display: flex;
-    align-items: center;
-    margin-left: 5px;
+  height: 41px;
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
 }
 
 i.qmc-primary-navigation-item-icon.icon {
-    display: none;
-    /* font-size: 16px; */
-    /* margin-top: 15px; */
+  display: none;
+  /* font-size: 16px; */
+  /* margin-top: 15px; */
 }
 
-
-.qmc-primary-navigation-list li:nth-child(3) {
-    display: none;
+.qmc-primary-navigation-list > li:nth-child(3) {
+  display: none;
 }
 
 .qmc-route-stage-container {
-    padding:0px;
+  padding: 0px;
 }
 
 .qmc-main-navigation {
-    padding-top: 0px;
-    padding-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
