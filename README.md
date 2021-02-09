@@ -9,10 +9,10 @@ Not everything is perfect but it will get better when find the time. Feel free t
 Using [Stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) browser extension (available for Chrome, Firefox and Opera) and added the `css` files from this repo.
 
 - Applied only the dark theme (main page)
-  ![dark-main](.\screenshots\dark-no-minimal.png)
+  ![dark-main](https://github.com/countnazgul/qmc-dark-theme/blob/main/screenshots/dark-no-minimal.PNG)
 
 - Applied only the dark theme (extensions page)
-  ![dark-main-extensions](.\screenshots\dark-no-minimal-extensions.png)
+  ![dark-main-extensions](https://github.com/countnazgul/qmc-dark-theme/blob/main/screenshots/dark-no-minimal-extensions.PNG)
 
 - Applied the dark and minimal themes (main page)
-  ![dark-and-minimal-main](.\screenshots\dark-minimal.png)
+  ![dark-and-minimal-main](https://github.com/countnazgul/qmc-dark-theme/blob/main/screenshots/dark-minimal.PNG)
