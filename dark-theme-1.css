@@ -1,26 +1,33 @@
+/* ==UserStyle==
+@name           Empty @name replaces the default template - 16/05/2022, 03:12:09
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Qlik Sense QMC dark theme
+@author         Stefan Stoichev (@countnazgul)
+==/UserStyle== */
+
 :root {
-  --main_b_color_01: #07090e;
-  --main_b_color_02: rgb(22, 27, 34);
-  --main_b_color_03: #010409;
-  --main_f_color_01: #c8d1d9;
-  --border_color_01: #30363d;
-  --hover_color_01: #0d1117;
-  --icon_color: #e3b341;
-  --hover_item: #23689b;
+--main_b_color_01: #07090e;
+--main_b_color_02: rgb(22, 27, 34);
+--main_b_color_03: #010409;
+--main_f_color_01: #c8d1d9;
+--border_color_01: #30363d;
+--hover_color_01: #0d1117;
+--icon_color:  #e3b341;
+--hover_item: #23689b;
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 div qmc-framework qmc-toolbar {
-  background-color: var(--main_b_color_01) !important;
+    background-color: var(--main_b_color_01) !important;
 }
 
 .qmc-route-stage-container .qmc-overview-body {
   background-color: var(--main_b_color_01);
-  color: var(--main_f_color_01);
+color: var(--main_f_color_01);
 }
 
 qmc-table-rows .qmc-table-rows .row > td {
@@ -32,12 +39,12 @@ div.qmc-home-view-body-content {
 }
 
 div.heading.ng-binding {
-  color: var(--main_f_color_01);
+color: var(--main_f_color_01);
   font-weight: bold;
 }
 
 a.qmc-startpagetile.ng-scope:hover {
-  background-color: var(--hover_color_01);
+  background-color: var(--hover_color_01)
 }
 
 div.qmc-primaryNavCol {
@@ -57,15 +64,25 @@ a.qmc-primary-navigation-item-link {
 }
 
 div qmc-framework qmc-toolbar {
-  background-color: var(--main_b_color_02);
+  background-color:  var(--main_b_color_02);
 }
 
 div.qmc-route-stage-container.ng-scope {
-  background-color: var(--main_b_color_02);
+  background-color:  var(--main_b_color_02);
 }
 
-qmc-primary-navigation-item
-  .qmc-primary-navigation-item-link
-  .qmc-primary-navigation-item-label:hover {
-  background-color: var(--hover_item);
+qmc-primary-navigation-item .qmc-primary-navigation-item-link .qmc-primary-navigation-item-label:hover {
+    background-color: var(--hover_item)
+}
+
+.qmc-property-edit .qmc-property-edit-row.qmc-property-edit-row-layout .qmc-property-edit-row-label {
+    color: white
+}
+
+.qmc-property-edit .qmc-property-edit-row {
+    color: white
+}
+
+.qmc-help-link {
+    color: lightblue
 }
