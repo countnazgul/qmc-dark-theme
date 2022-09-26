@@ -768,9 +768,9 @@ h2 a {
   color: white !important;
 }
 
-textarea {
-  background-color: var(--headerColor) !important;
-}
+/* textarea {
+    background-color: var(--headerColor) !important
+} */
 
 .mce-foot {
   background-color: var(--headerColor) !important;
@@ -869,14 +869,23 @@ textarea {
   .private-note-conversations
   .lia-private-note-conversations
   .lia-quilt-row-main
-  .lia-quilt-column-alley-single {
+  .lia-quilt-column-alley-single,
+.lia-form-recipient-scopes-entry,
+.lia-form-subject-entry,
+.lia-form-footer > div,
+.lia-form-body-entry,
+#token-input-lia-recipientScopes,
+.lia-form-input-wrapper > ul {
   background-color: var(--headerColor) !important;
 }
 
 .lia-note-subject,
 .lia-note-body-container.lia-component-body,
 .lia-form-type-text,
-.lia-note-context-subject {
+.lia-note-context-subject,
+.lia-form-subject-entry,
+.lia-form-recipient-scopes-entry,
+.lia-form-body-entry {
   color: white !important;
 }
 
@@ -1019,4 +1028,36 @@ footer .footer-container {
 #lia-body .default-menu-option:active,
 #lia-body .default-menu-option:focus {
   background-color: transparent !important;
+}
+
+.lia-note-subject,
+.lia-note-body-container.lia-component-body,
+.lia-form-type-text,
+.lia-note-context-subject,
+.lia-form-subject-entry,
+.lia-form-recipient-scopes-entry,
+.lia-form-body-entry {
+  margin: 0px !important;
+}
+
+#lia-body.ViewProfilePage
+  .lia-quilt-view-profile-page
+  .lia-quilt-row-sub-header {
+  background-color: var(--headerColor) !important;
+}
+
+.lia-activity-feed,
+.lia-property-label.lia-data-cell-primary.lia-data-cell-text {
+  color: var(--textColor) !important;
+}
+
+.viewsCountColumn,
+.messageSubjectColumn,
+.messagePostDateColumn,
+.lia-property-value.lia-data-cell-secondary {
+  color: var(--qlikColor) !important;
+}
+
+.lia-message-view-display.lia-message-view-auto-saved-draft {
+  background-color: var(--headerColor) !important;
 }
