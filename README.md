@@ -16,3 +16,6 @@ Using [Stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahj
 
 - Applied the dark and minimal themes (main page)
   ![dark-and-minimal-main](https://github.com/countnazgul/qmc-dark-theme/blob/main/screenshots/dark-minimal.PNG)
+  
+- Applied the `qlik-community.css` to https://community.qlik.com
+  ![dark-and-minimal-main](https://github.com/countnazgul/qmc-dark-theme/blob/main/screenshots/community-dark.png)
