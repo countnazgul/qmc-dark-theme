@@ -24,10 +24,10 @@ input[type="input"] {
   background: var(--altBackgroundColor) !important;
 }
 
-h2 {
-  color: white !important;
+/* h2 {
+    color: white !important
 }
-
+ */
 /*Other general*/
 .main-header .header-title span {
   color: white;
@@ -311,9 +311,9 @@ h2 {
   background-color: var(--altBackgroundColor) !important;
 }
 
-h2 a {
-  color: var(--textColor) !important;
-}
+/* h2 a {
+    color: var(--textColor) !important
+} */
 
 .product-details > p {
   color: var(--textColor) !important;
@@ -325,9 +325,9 @@ h2 a {
   background-color: var(--altBackgroundColor) !important;
 }
 
-h2 a {
-  color: var(--textColor) !important;
-}
+/* h2 a {
+    color: var(--textColor) !important
+} */
 
 .product-details > p {
   color: var(--textColor) !important;
