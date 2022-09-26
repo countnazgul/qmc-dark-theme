@@ -25,21 +25,27 @@ Using [Stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahj
 [Stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) allows applying the styles only to a specific domain(s). If no domain is specified the styles will be applied to every visited website.
 
 - Open the extension and press `Manage`
+
   ![Manage 1](./screenshots/manage-1.png)
 
 - Create new style
+
   ![Manage 2](./screenshots/manage-2.png)
 
 - Give the style a name and paste the css
+
   ![Manage 3](./screenshots/manage-3.png)
 
 - At the bottom press `+` to add domain
+
   ![Manage 4](./screenshots/manage-4.png)
 
 - Choose `URLs on the domain` and add the domain name (the example below is for Qlik Community)
+
   ![Manage 5](./screenshots/manage-5.png)
 
 - Press `Save`
+
   ![Manage 6](./screenshots/manage-6.png)
 
 - Thats it! Now every time community.qlik.com is visited the style will be applied
