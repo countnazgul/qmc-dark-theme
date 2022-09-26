@@ -234,13 +234,18 @@ h2 {
 
 /*Main page filters*/
 #filters {
-    background-color: var(--headerColor) !important;
     color: white !important;
+    background: var(--headerColor) url("/html/assets/angle down.PNG") no-repeat calc(100% - 5px) center !important;
+}
+
+.tablinks-wrapper > label {
+    display: none;
 }
 
 #selectFilter {
     background-color: var(--headerColor) !important;
     color: white !important;
+    width: 111% !important
 }
 
 .filterOuterWrapper > .filterInnerWrapper{
@@ -699,7 +704,9 @@ h2 a {
 }
 
 .mce-toolbar-grp {
+/*     border: 10px solid red; */
     padding: 0px;    
+/*     border: 10px solid red; */
 }
 
 /*New question*/
@@ -748,6 +755,7 @@ textarea {
 
 
 /*Notifications*/
+
 .lia-quilt-notification-feed-item {
     background-color: var(--headerColor) !important;
     color: white
