@@ -90,6 +90,11 @@ h2 {
     color: lightgray !important
 }
 
+#ideafilters{
+    background: var(--headerColor) url("/html/assets/angle down.PNG") no-repeat calc(100% - 5px) center !important;
+    color: white !important
+}
+
 /*LIA*/
 .lia-mark-empty {
     background: var(--altBackgroundColor) !important;
@@ -267,7 +272,7 @@ h2 {
 }
 
 #boardFilterInput::placeholder {
-    color: white!important;
+    color: white !important;
 }
 
 
@@ -499,6 +504,11 @@ h2 a {
 
 .lia-button-image-kudos-give > a:hover {
  background-color: var(--backgroundColor) !important;
+}
+
+.kudos-link.lia-link-disabled {
+    background-color: var(--headerColor) !important;
+    opacity: 1 !important;
 }
 
 #messageview {
@@ -763,4 +773,55 @@ textarea {
 
 #notificationList > ul, #notificationList {
     background-color: var(--backgroundColor) !important;
+}
+
+/*Event cards*/
+.event-card {
+    background-color: var(--headerColor) !important;
+    color: white !important;  
+}
+
+.custom-label-filter-container > .legend > button{
+    background-color: var(--headerColor) !important;
+    color: white !important
+}
+
+.label-dropdown > ul > li {
+    background-color: var(--headerColor) !important;
+    color: white !important
+}
+
+/*MVP Card*/
+.mvpcard {
+    background-color: var(--headerColor) !important;
+    color: var(--textColor) !important
+}
+
+.mvpcard_body_name > a {
+    color: white !important
+}
+
+/* .mvpcard_cancel {
+    background-color: var(--linkColor) !important;
+    color: white !important
+} */
+
+.lia-quilt-column.lia-quilt-column-24.lia-quilt-column-single.lia-quilt-column-main-content > .lia-quilt-column-alley .container, .lia-quilt-column.lia-quilt-column-24.lia-quilt-column-single.lia-quilt-column-main-content > .lia-quilt-column-alley .container > .box2 {
+    background-color: var(--headercontent) !important;
+}
+
+.cardContainer > .card > .cardText > .pText2 {
+    color: white !important
+} 
+
+.cardContainer > .card > .cardText > a > h4 {
+    color: white !important
+}
+
+.lia-quilt-column.lia-quilt-column-24.lia-quilt-column-single.lia-quilt-column-main-content > .lia-quilt-column-alley .container > .box2 > .heading{
+    color: white !important
+}
+
+#search-box-autocomplete::placeholder {
+    color: white !important
 }
