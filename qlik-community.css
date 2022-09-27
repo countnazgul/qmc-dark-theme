@@ -1,1092 +1,1127 @@
-:root {
-  --backgroundColor: #0b1525;
-  --altBackgroundColor: #101f38;
-  --dividerColor: #4d4d4d;
-  --focusOutlineColor: #4b4b4b;
-  --headerColor: #162a4b;
-  --linkColor: #006937;
-  --pageTitleBackground: #162a4b;
-  --textColor: #ccc;
-  --qlikColor: #009845;
-  --cancelColor: #fd6ca1;
-}
-
-#lia-body {
-  background-color: var(--backgroundColor) !important;
-}
-
-/*Global*/
-input {
-  color: var(--textColor) !important;
-}
-
-input[type="input"] {
-  background: var(--altBackgroundColor) !important;
-}
-
-/* h2 {
-  color: white !important
-}
-*/
-/*Other general*/
-.main-header .header-title span {
-  color: white
-}
-
-#inResponseTo {
-  font-style: italic
-}
-
-#inResponseTo > span {
-  color: var(--qlikColor) !important
-}
-
-#inResponseTo > span:before {
-  content: "@"
-}
-
-.search-result-sort-by-label {
-  display: none !important
-}
-
-.BreadCrumb {
-  background-color: var(--backgroundColor) !important;
-}
-
-.InfoMessage {
-  margin: 0 !important
-}
-
-.view-more-footer {
-  background-color: var(--backgroundColor) !important
-}
-
-.CommunityPage #auto1 #search-box-autocomplete::placeholder {
-  /* color: #54565a !important; */
-  font-size: 18px !important;
-  color: white !important;
-}
-
-.lia-page-options .lia-category-subscription-link {
-  color: white !important
-}
-
-#dropDownLink {
-  background-color: var(--headerColor) !important;
-}
-
-.accordian-block > .primary-list > li {
-  /*     border-color: var(--textColor) !important; */
-  border-color: var(--textColor) !important;
-  border-left: 1px solid;
-}
-
-.totalPage,
-.next,
-.clickCountClass,
-.prev {
-  color: white !important;
-}
-
-
-.prev-next-disabled {
-  color: lightgray !important
-}
-
-#ideafilters {
-  background: var(--headerColor) url("/html/assets/angle down.PNG") no-repeat calc(100% - 5px) center !important;
-  color: white !important
-}
-
-/*LIA*/
-.lia-mark-empty {
-  background: var(--altBackgroundColor) !important;
-  padding: 0px !important
-}
-
-.lia-panel {
-  background: var(--altBackgroundColor) !important;
-  border: 0px !important
-}
-
-.lia-panel-heading-bar {
-  background-color: transparent !important;
-  color: white !important
-}
-
-.lia-panel-heading-bar > span {
-  color: white !important
-}
-
-.lia-menu-dropdown-items {
-  background-color: var(--backgroundColor) !important
-}
-
-.lia-menu-dropdown-items > li > a {
-  color: white !important
-}
-
-.lia-menu-dropdown-items > li > span {
-  color: gray !important
-}
-
-#lia-searchformV32 {
-  margin-bottom: 10px !important;
-}
-
-/* #lia-searchformV32 > #searchautocompletetoggle > form {
-  padding-left: 0px !important;   
-} */
-#lia-searchformV32 > #searchautocompletetoggle > form > .lia-search-input-wrapper {
-  padding-left: 0px !important;
-}
-
-.lia-button-Cancel-action {
-  background-color: red !important
-}
-
-.lia-quilt-column-breadcrumb > div {
-  background-color: var(--backgroundColor) !important;
-  border-bottom: 1px solid var(--dividerColor)
-}
-
-/* #lia-body.CommunityPage .lia-quilt-row-sub-header { */
-/* 	background-color: var(--altBackgroundColor) !important; */
-/* } */
-.lia-quilt-row.lia-quilt-row-sub-header {
-  background-color: var(--textColor) !important;
-}
-
-.lia-emoticons-search {
-  background: var(--backgroundColor) !important
-}
-
-.lia-emoticons-footer {
-  background: var(--backgroundColor) !important
-}
-
-.lia-emoticons-filter.active {
-  background-color: var(--qlikColor) !important
-}
-
-.lia-emoticons-search-input-box {
-  border-color: white !important
-}
-
-.label-link.lia-link-navigation {
-  background-color: var(--headerColor) !important;
-  color: white !important;
-}
-
-/*Header*/
-.lia-quilt-column-profile-links {
-  background-color: var(--pageTitleBackground) !important;
-}
-
-.lia-link-navigation {
-  color: var(--textColor) !important
-}
-
-.lia-link-navigation:hover {
-  background-color: var(--altBackgroundColor) !important
-}
-
-.lia-link-navigation:before {
-  color: var(--linkColor) !important
-}
-
-.custom-dropdown-body {
-  background-color: var(--pageTitleBackground) !important;
-  color: var(--textColor) !important
-}
-
-.custom-dropdown-body:before {
-  background-color: var(--pageTitleBackground) !important;
-}
-
-.my-stat > p {
-  color: var(--textColor) !important
-}
-
-.utility-bar-wrapper > span > a {
-  color: var(--textColor) !important
-}
-
-
-/*Navigation*/
-.qlik_tab,
-.expand_qlik_tab {
-  color: var(--textColor) !important
-}
-
-#Forums > ul,
-#Forums:before,
-#Forums:after {
-  background-color: var(--pageTitleBackground) !important;
-}
-
-.qlik_childmenu,
-.qlik_childmenu:before,
-.qlik_childmenu:after {
-  background-color: var(--pageTitleBackground) !important;
-}
-
-.qlik_submenu_list {
-  background-color: var(--pageTitleBackground) !important;
-}
-
-.qlik_menu_list {
-  color: var(--textColor) !important
-}
-
-.arrow:before {
-  border-bottom-color: var(--pageTitleBackground) !important;
-}
-
-/*Main page filters*/
-#filters {
-  color: white !important;
-  background: var(--headerColor) url("/html/assets/angle down.PNG") no-repeat calc(100% - 5px) center !important;
-}
-
-.tablinks-wrapper > label {
-  display: none;
-}
-
-#selectFilter {
-  background-color: var(--headerColor) !important;
-  color: white !important;
-  width: 111% !important
-}
-
-.filterOuterWrapper > .filterInnerWrapper {
-  background-color: var(--headerColor) !important;
-  color: white !important;
-}
-
-.overflow-wrapper > ul > li {
-  background-color: var(--headerColor) !important;
-}
-
-.overflow-wrapper > ul > li > span {
-  background-color: var(--headerColor) !important;
-  color: white !important
-}
-
-#boardFilterInput {
-  background-color: var(--headerColor) !important;
-}
-
-#boardFilterInput::placeholder {
-  color: white !important;
-}
-
-
-/*Main page banner*/
-.vitality {
-  background-color: var(--altBackgroundColor) !important;
-}
-
-.lia-vitality-stats {
-  color: white !important
-}
-
-.community,
-.welcome {
-  color: var(--backgroundColor) !important
-}
-
-.community,
-.welcome {
-  pointer-events: none;
-}
-
-
-/*Main page cards*/
-#category-static,
-#category-static3 {
-  background-color: var(--altBackgroundColor) !important;
-}
-
-/* h2 a {
-  color: var(--textColor) !important
-} */
-.product-details > p {
-  color: var(--textColor) !important
-}
-
-/*Main page footer cards*/
-.product-card *,
-.product-card {
-  background-color: var(--altBackgroundColor) !important;
-}
-
-/* h2 a {
-  color: var(--textColor) !important
-} */
-.product-details > p {
-  color: var(--textColor) !important
-}
-
-/*Footer*/
-.footer-container {
-  background-color: var(--altBackgroundColor) !important;
-}
-
-/*Homepage top tabs*/
-.Homepage-top-tabs {
-  padding-left: 0px !important;
-  border: 0px !important;
-}
-
-.Homepage-top-tabs > ul > li {
-  border: 0px !important;
-  border-bottom: 1px solid var(--dividerColor) !important/*     margin-left: 10px !important */
-  /*     background-color: transparent !important */
-}
-
-.tablinks.top-tabs.active {
-  background-color: var(--headerColor) !important;
-}
-
-.tablinks.top-tabs.active > a {
-  color: var(--qlikColor)
-}
-
-.tablinks.top-tabs {
-  background-color: var(--backgroundColor) !important;
-  border: 1px solid var(--dividerColor) !important
-}
-
-.tablinks.top-tabs > a {
-  color: var(--qlikColor)
-}
-
-
-
-/*Post*/
-.solved {
-  /*     border-color: var(--linkColor) !important; */
-  border-top: 0px !important;
-  border-bottom: 0px !important;
-  border-right: 0px !important;
-  border-left: 0px solid var(--qlikColor) !important;
-  background-color: var(--headerColor) !important
-}
-
-.solved:before {
-  border-right-color: var(--qlikColor) !important
-}
-
-.solved,
-.unsolved {
-  padding: 20px !important;
-  margin-bottom: 0px !important;
-  border-bottom-color: var(--dividerColor) !important;
-}
-
-.board-heading > a {
-  color: var(--linkColor) !important
-}
-
-.discussion-description > h3 > a {
-  color: white !important
-}
-
-.truncated-body {
-  color: var(--textColor) !important
-}
-
-.icon-message {
-  width: 0px !important;
-  display: none;
-}
-
-.login-date-container > label {
-  background-color: transparent !important;
-  border: 0px !important;
-  color: var(--textColor) !important
-}
-
-.login-date-container > label > a {
-  color: var(--linkColor) !important
-}
-
-.kudo-reply-container > .reply,
-.views,
-.like-registered {
-  color: var(--linkColor) !important
-}
-
-.kudo-reply-container > .like-registered > span > div > a {
-  color: var(--linkColor) !important
-}
-
-/*User profile card*/
-.hover-card-container .profileCard .inner {
-  background-color: var(--headerColor) !important
-}
-
-.hover-card-container .profileCard .inner:after {
-  background-color: var(--headerColor) !important
-}
-
-.hover-card-container .profileCard .inner .hover-arrow {
-  background-color: var(--headerColor) !important
-}
-
-.js-user-name,
-.js-badge,
-.js-user-stats,
-.js-action {
-  background-color: var(--headerColor) !important;
-}
-
-.js-user-stats > li > span {
-  color: white !important
-}
-
-.lia-user-rank {
-  color: white !important
-}
-
-.badgeTotal > a {
-  background-color: var(--qlikColor) !important
-}
-
-/*Widget*/
-.login-bold {
-  color: var(--textColor) !important
-}
-
-.kudosCountColumn,
-.kudosCountColumn:before {
-  color: var(--qlikColor) !important
-}
-
-.lia-user-name > a > span {
-  color: var(--textColor) !important
-}
-
-.participant-list-card > h2 {
-  color: white !important
-}
-
-.participant-list-card > ul > li {
-  padding-left: 0px !important;
-  border-color: var(--dividerColor) !important
-}
-
-
-.participant-list-card > ul > li > a,
-.participant-list-card > ul > li > span {
-  color: var(--textColor) !important
-}
-
-.participant-list-card > ul > li > .resource-icon {
-  display: none !important
-}
-
-/*Tags*/
-.lia-tag-list-item {
-  background-color: var(--qlikColor) !important;
-  color: white !important
-}
-
-.lia-tag-list-item > a:link {
-  color: white !important
-}
-
-.lia-tag-list-item > a:hover {
-  background-color: transparent !important
-}
-
-/*Post*/
-.lia-message-body-content {
-  font-size: 18px !important;
-}
-
-.lia-button-image-kudos-count,
-.lia-button-image-kudos-give > a {
-  background-color: var(--headerColor) !important;
-  color: white !important
-}
-
-.lia-button-image-kudos-give > a {
-  background-color: var(--headerColor) !important;
-  border: 1px solid var(--qlikColor) !important;
-}
-
-.lia-button-image-kudos-give > a:hover {
-  background-color: var(--backgroundColor) !important;
-}
-
-.kudos-link.lia-link-disabled {
-  background-color: var(--headerColor) !important;
-  opacity: 1 !important;
-}
-
-#messageview {
-  border-bottom: 0px;
-}
-
-.MessageView {
-  background-color: var(--headerColor) !important;
-  padding: 20px !important;
-  border-bottom: 0px !important;
-}
-
-#addThis,
-.AddThis {
-  display: none !important
-}
-
-.lia-message-body-content {
-  color: var(--textColor) !important
-}
-
-/* .lia-message-body-content > p {
-  margin: 5px !important
-} */
-.lia-link-navigation.add-tag-link {
-  display: none !important;
-}
-
-.lia-menu-bar.lia-menu-bar-bottom.lia-forum-topic-page-gte-5-pager.lia-component-topic-message {
-  display: none !important;
-}
-
-.lia-message-subject {
-  color: white !important;
-  font-size: 32px !important;
-}
-
-.lia-component-message-view-widget-labels {
-  margin: 0px !important;
-  background-color: transparent !important;
-}
-
-.LabelsForArticle {
-  padding: 0px !important;
-}
-
-.lia-panel-content-wrapper {
-  padding: 0px !important
-}
-
-.lia-message-view-wrapper {
-  background-color: var(--headerColor) !important;
-  color: white;
-}
-
-.CommentEditorForm {
-  background-color: var(--backgroundColor) !important;
-  color: white;
-}
-
-.lia-fieldset-title {
-  color: white;
-}
-
-.lia-panel-heading-bar-wrapper {
-  display: none !important;
-}
-
-.lia-message-view-blog-reply-message {
-  border-top: 1px solid var(--dividerColor) !important;
-  /*     border-bottom: 1px solid var(--dividerColor) !important; */
-}
-
-.lia-blog-article-page-comment-count {
-  padding-left: 20px !important;
-  color: white !important
-}
-
-#labelsForMessage > .LabelsList > ul > li {
-  background-color: transparent !important;
-  border: 0px !important
-}
-
-#labelsForMessage > .LabelsList > ul > li > h3 > a:link {
-  color: var(--qlikColor) !important;
-}
-
-#labelsForMessage > .LabelsList > ul > li > h3 > a:hover {
-  background-color: transparent !important;
-}
-
-.lia-quilt-row-footer {
-  background-color: transparent !important
-}
-
-.lia-message-VIEW_COUNT {
-  background-color: transparent !important;
-  border: 0px !important;
-  color: white !important;
-}
-
-.lia-menu-navigation > .dropdown-default-item > a {
-  background-color: var(--backgroundColor) !important;
-  border-color: var(--backgroundColor) !important;
-}
-
-.MessageView > div > div > div {
-  float: none !important
-}
-
-.MessageView > div > div > div:nth-child(2) {
-  width: 100% !important
-}
-
-.lia-message-author-avatar > .UserAvatar > img {
-  width: 40px !important;
-  height: 40px !important;
-}
-
-.lia-message-author-with-avatar {
-  border: 0px !important
-}
-
-.lia-message-author-with-avatar .lia-user-name-link > span {
-  color: white !important;
-  font-size: 16px
-}
-
-.lia-message-author-rank {
-  color: var(--qlikColor) !important;
-  font-size: 12px !important
-}
-
-.lia-message-author-rank:before {
-  content: " " !important
-}
-
-.lia-message-post-date > span {
-  border: 0px !important;
-  color: var(--textColor)
-}
-
-.lia-message-post-date {
-  background-color: transparent !important;
-  border: 0px !important
-}
-
-.lia-message-author-with-avatar {
-  background-color: transparent !important;
-}
-
-.DateTime {
-  background-color: var(--headerColor) !important;
-}
-
-
-.reply-kudo-wrap > div > div {
-  background-color: transparent !important
-}
-
-.UserSignature {
-  background-color: transparent !important;
-  border: 0px !important
-}
-
-/*TinyMCE*/
-#tinymce > p {
-  margin-bottom: 0px !important;
-  background-color: var(--pageTitleBackground)
-}
-
-#tinymce {
-  background: var(--pageTitleBackground) !important;
-  color: white;
-}
-
-.mce-ico:before {
-  color: white !important
-}
-
-.mce-flow-layout {
-  background-color: var(--backgroundColor) !important
-}
-
-.mce-edit-area {
-  padding-bottom: 0px !important;
-  background-color: var(--backgroundColor) !important
-}
-
-.mce-content-body {
-  border: 0px !important;
-  border-radius: 0px !important;
-}
-
-.message-body-editor {
-  border: 0px !important;
-  border-radius: 0px !important;
-  padding: 0px !important;
-}
-
-.lia-inline-message-body-editor {
-  border: 0px !important;
-  /******/
-}
-
-.mce-toolbar-grp {
-  /*     border: 10px solid red; */
-  padding: 0px;
-  /*     border: 10px solid red; */
-}
-
-#lia-mentions-block {
-  background-color: var(--headerColor) !important;
-}
-
-#lia-mentions-block * {
-  color: white
-}
-
-.lia-mentions-visible-item:hover {
-  background-color: var(--backgroundColor) !important;
-}
-
-.lia-mentions-gte-v2-caption-li, .lia-mentions-gte-v2-caption:hover {
-  background-color: var(--headerColor) !important
-}
-
-.lia-panel-message, .MessageView {
-  border: 0px !important
-}
-
-/*Tell us what you think*/
-.lia-panel-dialog-modal-valuesurvey.lia-dialog-titleless.lia-in {
-  background-color: var(--backgroundColor) !important;
-  color: white;
-}
-
-.decline-survey-link {
-  background-color: red !important;
-  color: white
-}
-
-/*Lang button*/
-#locman.dropdown > a, #locman.dropdown > button {   
-  background-color: var(--headerColor) !important;
-  border: 1px solid white !important;
-  color: white;
-}
-
-#locman.dropdown input[type="checkbox"]:checked + ul {
-  background-color: var(--headerColor) !important;
-  border: 1px solid white !important;
-  color: white;
-}
-
-#locman.dropdown input[type="checkbox"]:checked + ul > li > a{
-  color: white;
-}
-
-#locman.dropdown input[type="checkbox"]:checked + ul > li:hover{
-  background-color: var(--backgroundColor) !important
-}
-
-/*New question*/
-.lia-quilt-row.lia-quilt-row-standard.lia-input-edit-form-row.lia-quilt-row-first.lia-quilt-row-last > div {
-  background-color: var(--backgroundColor) !important;
-  width: 100% !important;
-  color: white !important;
-}
-
-#lia-subject::placeholder {
-  color: white !important
-}
-
-#lia-subject,
-#lia-board,
-#lia-tags {
-  background-color: var(--headerColor) !important;
-  color: white !important
-}
-
-.mce-widget > button:hover {
-  background-color: var(--qlikColor) !important
-}
-
-.mce-panel.mce-floatpanel {
-  background-color: var(--backgroundColor) !important;
-}
-
-.mce-panel.mce-floatpanel * {
-  color: white !important
-}
-
-/* textarea {
-  background-color: var(--headerColor) !important
-} */
-.mce-foot {
-  background-color: var(--headerColor) !important
-}
-
-.mce-widget.mce-btn.mce-menubtn.mce-listbox.mce-abs-layout-item.mce-last.mce-btn-has-text {
-  background-color: var(--headerColor) !important
-}
-
-.mce-widget.mce-btn.mce-abs-layout-item.mce-last.mce-btn-has-text > button {
-  background-color: var(--headerColor) !important
-}
-
-
-/*Notifications*/
-.lia-quilt-notification-feed-item {
-  background-color: var(--headerColor) !important;
-  color: white
-}
-
-#notificationList > ul,
-#notificationList {
-  background-color: var(--backgroundColor) !important;
-}
-
-/*Event cards*/
-.event-card {
-  background-color: var(--headerColor) !important;
-  color: white !important;
-}
-
-.custom-label-filter-container > .legend > button {
-  background-color: var(--headerColor) !important;
-  color: white !important
-}
-
-.label-dropdown > ul > li {
-  background-color: var(--headerColor) !important;
-  color: white !important
-}
-
-/*MVP Card*/
-.mvpcard {
-  background-color: var(--headerColor) !important;
-  color: var(--textColor) !important
-}
-
-.mvpcard_body_name > a {
-  color: white !important
-}
-
-/* .mvpcard_cancel {
-  background-color: var(--linkColor) !important;
-  color: white !important
-} */
-.lia-quilt-column.lia-quilt-column-24.lia-quilt-column-single.lia-quilt-column-main-content > .lia-quilt-column-alley .container,
-.lia-quilt-column.lia-quilt-column-24.lia-quilt-column-single.lia-quilt-column-main-content > .lia-quilt-column-alley .container > .box2 {
-  background-color: var(--headercontent) !important;
-}
-
-.cardContainer > .card > .cardText > .pText2 {
-  color: white !important
-}
-
-.cardContainer > .card > .cardText > a > h4 {
-  color: white !important
-}
-
-.lia-quilt-column.lia-quilt-column-24.lia-quilt-column-single.lia-quilt-column-main-content > .lia-quilt-column-alley .container > .box2 > .heading {
-  color: white !important
-}
-
-#search-box-autocomplete::placeholder {
-  color: white !important
-}
-
-/*Inbox*/
-#lia-conversation-context,
-#lia-notes-thread-stream-list,
-#notesthreadlist,
-#lia-conversation-header,
-.lia-component-notes-widget-threaded-note-view,
-.lia-conversation-body.lia-component-comments,
-.lia-form-type-text,
-.lia-private-notes-page .private-note-conversations .lia-private-note-conversations .lia-quilt-row-main .lia-quilt-column-alley-single,
-.lia-form-recipient-scopes-entry,
-.lia-form-subject-entry,
-.lia-form-footer > div,
-.lia-form-body-entry,
-#token-input-lia-recipientScopes,
-.lia-form-input-wrapper > ul {
-  background-color: var(--headerColor) !important;
-}
-
-.lia-note-subject,
-.lia-note-body-container.lia-component-body,
-.lia-form-type-text,
-.lia-note-context-subject,
-.lia-form-subject-entry,
-.lia-form-recipient-scopes-entry,
-.lia-form-body-entry {
-  color: white !important
-}
-
-#notebodydisplay > p {
-  color: var(--textColor) !important
-}
-
-.lia-note-body-container.lia-component-body {
-  min-height: 10px;
-  padding-bottom: 0px
-}
-
-.lia-form-type-text::placeholder {
-  color: white !important;
-}
-
-.lia-load-old-notes-link-container {
-  padding-top: 0px !important
-}
-
-#olderNotesLink {
-  background-color: var(--backgroundColor) !important;
-  padding-top: 10px !important;
-  padding-bottom: 10px !important
-}
-
-#lia-body .lia-content .lia-quilt-row-breadcrumb .page-controls,
-.lia-quilt-row.custom-search-container,
-.lia-top-quilt > .lia-quilt-row.lia-quilt-row-main,
-footer .footer-container {
-  padding-left: 0px;
-}
-
-#lia-body.PrivateNotesPage .lia-quilt-row.lia-quilt-row-main {
-  padding-bottom: 0px;
-  min-height: 10px;
-  margin-bottom: 0px;
-}
-
-.lia-private-notes-page .lia-notes-thread-list .selected {
-  background-color: var(--backgroundColor) !important;
-}
-
-#lia-notes-thread-stream-list {
-  overflow: auto;
-}
-
-.lia-private-notes-page .lia-notes-thread-list .user-name .DateTime {
-  background-color: transparent !important
-}
-
-#lia-searchQuery {
-  background-color: var(--backgroundColor) !important
-}
-
-#dropDownLink:after {
-  color: white !important
-}
-
-#lia-body.PrivateNotesPage .lia-quilt-row.lia-quilt-row-main {
-  padding: 0px;
-  margin-bottom: 0px;
-}
-
-#lia-body.PrivateNotesPage .lia-quilt-column.lia-quilt-column-single.lia-quilt-column-main-content {
-  border-top: 0px solid #e7e7e7 !important;
-  border-bottom: 0px solid #e7e7e7 !important;
-}
-
-#notesthreadlist {
-  border-left: 0px solid #e7e7e7 !important;
-  border-top: 0px solid #e7e7e7 !important;
-  border-right: 1px solid var(--dividerColor)
-}
-
-#privateNoteConversations {
-  border-right: 0px solid var(--dividerColor) !important;
-}
-
-.lia-note-content {
-  margin-left: 0px !important
-}
-
-.lia-user-avatar-profile {
-  width: 30px !important;
-  height: 30px !important;
-}
-
-.lia-threaded-note-view .lia-note-content {
-  border-bottom: 1px solid var(--dividerColor);
-}
-
-.lia-note-description {
-  padding-bottom: 10px !important
-}
-
-.report-abuse-link {
-  background-color: red !important;
-  color: white !important
-}
-
-.lia-note-date.lia-note-sent-date {
-  color: var(--textColor) !important
-}
-
-#deleteCurrentThread {
-  color: red !important
-}
-
-.lia-notes-delete-thread > div > span {
-  background-color: red;
-  width: 40px;
-  display: flex;
-  justify-content: center;
-}
-
-#lia-conversation-header {
-  border-bottom: 1px solid var(--dividerColor) !important;
-}
-
-.local-date {
-  color: var(--textColor)
-}
-
-#lia-body.PrivateNotesPage .lia-notes-thread-list .lia-notes-thread-stream-list {
-  min-height: 10px !important;
-  height: unset
-}
-
-#lia-body.PrivateNotesPage .lia-quilt-row.lia-quilt-row-main {
-  padding-bottom: 20px;
-  background-color: var(--backgroundColor) !important;
-}
-
-#lia-body .default-menu-option,
-#lia-body .default-menu-option:hover,
-#lia-body .default-menu-option:active,
-#lia-body .default-menu-option:focus {
-  background-color: transparent !important
-}
-
-.lia-note-subject,
-.lia-note-body-container.lia-component-body,
-.lia-form-type-text,
-.lia-note-context-subject,
-.lia-form-subject-entry,
-.lia-form-recipient-scopes-entry,
-.lia-form-body-entry {
-  margin: 0px !important;
-}
-
-#lia-body.ViewProfilePage .lia-quilt-view-profile-page .lia-quilt-row-sub-header {
-  background-color: var(--headerColor) !important;
-}
-
-.lia-activity-feed,
-.lia-property-label.lia-data-cell-primary.lia-data-cell-text {
-  color: var(--textColor) !important
-}
-
-.viewsCountColumn,
-.messageSubjectColumn,
-.messagePostDateColumn,
-.lia-property-value.lia-data-cell-secondary {
-  color: var(--qlikColor) !important
-}
-
-.lia-message-view-display.lia-message-view-auto-saved-draft {
-  background-color: var(--headerColor) !important
-}
+/* ==UserStyle==
+@name         Qlik Community Dark Theme
+@version      20220927.09.22
+@namespace    userstyles.world/user/countnazgul
+@description  Dark theme for community.qlik.com
+
+Most of the colors are from qlik.dev
+@author       countnazgul
+@license      MIT
+==/UserStyle== */
+
+@-moz-document domain("community.qlik.com") {
+  :root {
+      --backgroundColor: #0b1525;
+      --altBackgroundColor: #101f38;
+      --dividerColor: #4d4d4d;
+      --focusOutlineColor: #4b4b4b;
+      --headerColor: #162a4b;
+      --linkColor: #006937;
+      --pageTitleBackground: #162a4b;
+      --textColor: #ccc;
+      --qlikColor: #009845;
+      --cancelColor: #fd6ca1;
+  }
+  
+  #lia-body {
+      background-color: var(--backgroundColor) !important;
+  }
+  
+  /*Global*/
+  input {
+      color: var(--textColor) !important;
+  }
+  
+  input[type="input"] {
+      background: var(--altBackgroundColor) !important;
+  }
+  
+  /* h2 {
+      color: white !important
+  }
+   */
+  /*Other general*/
+  .main-header .header-title span {
+      color: white
+  }
+  
+  #inResponseTo {
+      font-style: italic
+  }
+  
+  #inResponseTo > span {
+      color: var(--qlikColor) !important
+  }
+  
+  #inResponseTo > span:before {
+      content: "@"
+  }
+  
+  .search-result-sort-by-label {
+      display: none !important
+  }
+  
+  .BreadCrumb {
+      background-color: var(--backgroundColor) !important;
+  }
+  
+  .InfoMessage {
+      margin: 0 !important
+  }
+  
+  .view-more-footer {
+      background-color: var(--backgroundColor) !important
+  }
+  
+  .CommunityPage #auto1 #search-box-autocomplete::placeholder {
+      /* color: #54565a !important; */
+      font-size: 18px !important;
+      color: white !important;
+  }
+  
+  .lia-page-options .lia-category-subscription-link {
+      color: white !important
+  }
+  
+  #dropDownLink {
+      background-color: var(--headerColor) !important;
+  }
+  
+  .accordian-block > .primary-list > li {
+      /*     border-color: var(--textColor) !important; */
+      border-color: var(--textColor) !important;
+      border-left: 1px solid;
+  }
+  
+  .totalPage,
+  .next,
+  .clickCountClass,
+  .prev {
+      color: white !important;
+  }
+  
+  
+  .prev-next-disabled {
+      color: lightgray !important
+  }
+  
+  #ideafilters {
+      background: var(--headerColor) url("/html/assets/angle down.PNG") no-repeat calc(100% - 5px) center !important;
+      color: white !important
+  }
+  
+  /*LIA*/
+  .lia-mark-empty {
+      background: var(--altBackgroundColor) !important;
+      padding: 0px !important
+  }
+  
+  .lia-panel {
+      background: var(--altBackgroundColor) !important;
+      border: 0px !important
+  }
+  
+  .lia-panel-heading-bar {
+      background-color: transparent !important;
+      color: white !important
+  }
+  
+  .lia-panel-heading-bar > span {
+      color: white !important
+  }
+  
+  .lia-menu-dropdown-items {
+      background-color: var(--backgroundColor) !important
+  }
+  
+  .lia-menu-dropdown-items > li > a {
+      color: white !important
+  }
+  
+  .lia-menu-dropdown-items > li > span {
+      color: gray !important
+  }
+  
+  #lia-searchformV32 {
+      margin-bottom: 10px !important;
+  }
+  
+  /* #lia-searchformV32 > #searchautocompletetoggle > form {
+      padding-left: 0px !important;   
+  } */
+  #lia-searchformV32 > #searchautocompletetoggle > form > .lia-search-input-wrapper {
+      padding-left: 0px !important;
+  }
+  
+  .lia-button-Cancel-action {
+      background-color: red !important
+  }
+  
+  .lia-quilt-column-breadcrumb > div {
+      background-color: var(--backgroundColor) !important;
+      border-bottom: 1px solid var(--dividerColor)
+  }
+  
+  /* #lia-body.CommunityPage .lia-quilt-row-sub-header { */
+  /* 	background-color: var(--altBackgroundColor) !important; */
+  /* } */
+  .lia-quilt-row.lia-quilt-row-sub-header {
+      background-color: var(--textColor) !important;
+  }
+  
+  .lia-emoticons-search {
+      background: var(--backgroundColor) !important
+  }
+  
+  .lia-emoticons-footer {
+      background: var(--backgroundColor) !important
+  }
+  
+  .lia-emoticons-filter.active {
+      background-color: var(--qlikColor) !important
+  }
+  
+  .lia-emoticons-search-input-box {
+      border-color: white !important
+  }
+  
+  .label-link.lia-link-navigation {
+      background-color: var(--headerColor) !important;
+      color: white !important;
+  }
+  
+  /*Header*/
+  .lia-quilt-column-profile-links {
+      background-color: var(--pageTitleBackground) !important;
+  }
+  
+  .lia-link-navigation {
+      color: var(--textColor) !important
+  }
+  
+  .lia-link-navigation:hover {
+      background-color: var(--altBackgroundColor) !important
+  }
+  
+  .lia-link-navigation:before {
+      color: var(--linkColor) !important
+  }
+  
+  .custom-dropdown-body {
+      background-color: var(--pageTitleBackground) !important;
+      color: var(--textColor) !important
+  }
+  
+  .custom-dropdown-body:before {
+      background-color: var(--pageTitleBackground) !important;
+  }
+  
+  .my-stat > p {
+      color: var(--textColor) !important
+  }
+  
+  .utility-bar-wrapper > span > a {
+      color: var(--textColor) !important
+  }
+  
+  
+  /*Navigation*/
+  
+  .header-content-search, .private-notes-link:before, .lia-notification-feed-page-link:before {
+      color: var(--qlikColor) !important
+  }
+  
+  .title-and-nav-wrapper {
+      margin-top: 0px !important
+  }
+  
+  #header-utility-bar a {
+      color: var(--textColor) !important
+  }
+  
+  .qlik_tab,
+  .expand_qlik_tab {
+      color: var(--textColor) !important
+  }
+  
+  #Forums > ul,
+  #Forums:before,
+  #Forums:after {
+      background-color: var(--pageTitleBackground) !important;
+  }
+  
+  .qlik_childmenu,
+  .qlik_childmenu:before,
+  .qlik_childmenu:after {
+      background-color: var(--pageTitleBackground) !important;
+  }
+  
+  .qlik_submenu_list {
+      background-color: var(--pageTitleBackground) !important;
+  }
+  
+  .qlik_menu_list {
+      color: var(--textColor) !important
+  }
+  
+  .arrow:before {
+      border-bottom-color: var(--pageTitleBackground) !important;
+  }
+  
+  /*Main page filters*/
+  #filters {
+      color: white !important;
+      background: var(--headerColor) url("/html/assets/angle down.PNG") no-repeat calc(100% - 5px) center !important;
+  }
+  
+  .tablinks-wrapper > label {
+      display: none;
+  }
+  
+  #selectFilter {
+      background-color: var(--headerColor) !important;
+      color: white !important;
+      width: 111% !important
+  }
+  
+  .filterOuterWrapper > .filterInnerWrapper {
+      background-color: var(--headerColor) !important;
+      color: white !important;
+  }
+  
+  .overflow-wrapper > ul > li {
+      background-color: var(--headerColor) !important;
+  }
+  
+  .overflow-wrapper > ul > li > span {
+      background-color: var(--headerColor) !important;
+      color: white !important
+  }
+  
+  #boardFilterInput {
+      background-color: var(--headerColor) !important;
+  }
+  
+  #boardFilterInput::placeholder {
+      color: white !important;
+  }
+  
+  
+  /*Main page banner*/
+  .vitality {
+      background-color: var(--altBackgroundColor) !important;
+  }
+  
+  .lia-vitality-stats {
+      color: white !important
+  }
+  
+  .community,
+  .welcome {
+      color: var(--backgroundColor) !important
+  }
+  
+  .community,
+  .welcome {
+      pointer-events: none;
+  }
+  
+  
+  /*Main page cards*/
+  #category-static,
+  #category-static3 {
+      background-color: var(--altBackgroundColor) !important;
+  }
+  
+  /* h2 a {
+      color: var(--textColor) !important
+  } */
+  .product-details > p {
+      color: var(--textColor) !important
+  }
+  
+  /*Main page footer cards*/
+  .product-card *,
+  .product-card {
+      background-color: var(--altBackgroundColor) !important;
+  }
+  
+  /* h2 a {
+      color: var(--textColor) !important
+  } */
+  .product-details > p {
+      color: var(--textColor) !important
+  }
+  
+  /*Footer*/
+  .footer-container {
+      background-color: var(--altBackgroundColor) !important;
+  }
+  
+  /*Homepage top tabs*/
+  .Homepage-top-tabs {
+      padding-left: 0px !important;
+      border: 0px !important;
+  }
+  
+  .Homepage-top-tabs > ul > li {
+      border: 0px !important;
+      border-bottom: 1px solid var(--dividerColor) !important/*     margin-left: 10px !important */
+      /*     background-color: transparent !important */
+  }
+  
+  .tablinks.top-tabs.active {
+      background-color: var(--headerColor) !important;
+  }
+  
+  .tablinks.top-tabs.active > a {
+      color: var(--qlikColor)
+  }
+  
+  .tablinks.top-tabs {
+      background-color: var(--backgroundColor) !important;
+      border: 1px solid var(--dividerColor) !important
+  }
+  
+  .tablinks.top-tabs > a {
+      color: var(--qlikColor)
+  }
+  
+  
+  
+  /*Post*/
+  .solved {
+      /*     border-color: var(--linkColor) !important; */
+      border-top: 0px !important;
+      border-bottom: 0px !important;
+      border-right: 0px !important;
+      border-left: 0px solid var(--qlikColor) !important;
+      background-color: var(--headerColor) !important
+  }
+  
+  .solved:before {
+      border-right-color: var(--qlikColor) !important
+  }
+  
+  .solved,
+  .unsolved {
+      padding: 20px !important;
+      margin-bottom: 0px !important;
+      border-bottom-color: 0px var(--dividerColor) !important;
+      border-top-color: var(--dividerColor) !important;
+  }
+  
+  .board-heading > a {
+      color: var(--linkColor) !important
+  }
+  
+  .discussion-description > h3 > a {
+      color: white !important
+  }
+  
+  .truncated-body {
+      color: var(--textColor) !important
+  }
+  
+  .icon-message {
+      width: 0px !important;
+      display: none;
+  }
+  
+  .login-date-container > label {
+      background-color: transparent !important;
+      border: 0px !important;
+      color: var(--textColor) !important
+  }
+  
+  .login-date-container > label > a {
+      color: var(--linkColor) !important
+  }
+  
+  .kudo-reply-container > .reply,
+  .views,
+  .like-registered {
+      color: var(--linkColor) !important
+  }
+  
+  .kudo-reply-container > .like-registered > span > div > a {
+      color: var(--linkColor) !important
+  }
+  
+  /*User profile card*/
+  .hover-card-container .profileCard .inner {
+      background-color: var(--headerColor) !important
+  }
+  
+  .hover-card-container .profileCard .inner:after {
+      background-color: var(--headerColor) !important
+  }
+  
+  .hover-card-container .profileCard .inner .hover-arrow {
+      background-color: var(--headerColor) !important
+  }
+  
+  .js-user-name,
+  .js-badge,
+  .js-user-stats,
+  .js-action {
+      background-color: var(--headerColor) !important;
+  }
+  
+  .js-user-stats > li > span {
+      color: white !important
+  }
+  
+  .lia-user-rank {
+      color: white !important
+  }
+  
+  .badgeTotal > a {
+      background-color: var(--qlikColor) !important
+  }
+  
+  /*Widget*/
+  .login-bold {
+      color: var(--textColor) !important
+  }
+  
+  .kudosCountColumn,
+  .kudosCountColumn:before {
+      color: var(--qlikColor) !important
+  }
+  
+  .lia-user-name > a > span {
+      color: var(--textColor) !important
+  }
+  
+  .participant-list-card > h2 {
+      color: white !important
+  }
+  
+  .participant-list-card > ul > li {
+      padding-left: 0px !important;
+      border-color: var(--dividerColor) !important
+  }
+  
+  
+  .participant-list-card > ul > li > a,
+  .participant-list-card > ul > li > span {
+      color: var(--textColor) !important
+  }
+  
+  .participant-list-card > ul > li > .resource-icon {
+      display: none !important
+  }
+  
+  /*Tags*/
+  .lia-tag-list-item {
+      background-color: var(--qlikColor) !important;
+      color: white !important
+  }
+  
+  .lia-tag-list-item > a:link {
+      color: white !important
+  }
+  
+  .lia-tag-list-item > a:hover {
+      background-color: transparent !important
+  }
+  
+  /*Post*/
+  .lia-message-body-content {
+      font-size: 18px !important;
+  }
+  
+  .lia-button-image-kudos-count,
+  .lia-button-image-kudos-give > a {
+      background-color: var(--headerColor) !important;
+      color: white !important
+  }
+  
+  .lia-button-image-kudos-give > a {
+      background-color: var(--headerColor) !important;
+      border: 1px solid var(--qlikColor) !important;
+  }
+  
+  .lia-button-image-kudos-give > a:hover {
+      background-color: var(--backgroundColor) !important;
+  }
+  
+  .kudos-link.lia-link-disabled {
+      background-color: var(--headerColor) !important;
+      opacity: 1 !important;
+  }
+  
+  #messageview {
+      border-bottom: 0px;
+  }
+  
+  .MessageView {
+      background-color: var(--headerColor) !important;
+      padding: 20px !important;
+      border-bottom: 0px !important;
+  }
+  
+  #addThis,
+  .AddThis {
+      display: none !important
+  }
+  
+  .lia-message-body-content {
+      color: var(--textColor) !important
+  }
+  
+  /* .lia-message-body-content > p {
+      margin: 5px !important
+  } */
+  .lia-link-navigation.add-tag-link {
+      display: none !important;
+  }
+  
+  .lia-menu-bar.lia-menu-bar-bottom.lia-forum-topic-page-gte-5-pager.lia-component-topic-message {
+      display: none !important;
+  }
+  
+  .lia-message-subject {
+      color: white !important;
+      font-size: 32px !important;
+  }
+  
+  .lia-component-message-view-widget-labels {
+      margin: 0px !important;
+      background-color: transparent !important;
+  }
+  
+  .LabelsForArticle {
+      padding: 0px !important;
+  }
+  
+  .lia-panel-content-wrapper {
+      padding: 0px !important
+  }
+  
+  .lia-message-view-wrapper {
+      background-color: var(--headerColor) !important;
+      color: white;
+  }
+  
+  .CommentEditorForm {
+      background-color: var(--backgroundColor) !important;
+      color: white;
+  }
+  
+  .lia-fieldset-title {
+      color: white;
+  }
+  
+  .lia-panel-heading-bar-wrapper {
+      display: none !important;
+  }
+  
+  .lia-message-view-blog-reply-message {
+      border-top: 1px solid var(--dividerColor) !important;
+      /*     border-bottom: 1px solid var(--dividerColor) !important; */
+  }
+  
+  .lia-blog-article-page-comment-count {
+      padding-left: 20px !important;
+      color: white !important
+  }
+  
+  #labelsForMessage > .LabelsList > ul > li {
+      background-color: transparent !important;
+      border: 0px !important
+  }
+  
+  #labelsForMessage > .LabelsList > ul > li > h3 > a:link {
+      color: var(--qlikColor) !important;
+  }
+  
+  #labelsForMessage > .LabelsList > ul > li > h3 > a:hover {
+      background-color: transparent !important;
+  }
+  
+  .lia-quilt-row-footer {
+      background-color: transparent !important
+  }
+  
+  .lia-message-VIEW_COUNT {
+      background-color: transparent !important;
+      border: 0px !important;
+      color: white !important;
+  }
+  
+  .lia-menu-navigation > .dropdown-default-item > a {
+      background-color: var(--backgroundColor) !important;
+      border-color: var(--backgroundColor) !important;
+  }
+  
+  .MessageView > div > div > div {
+      float: none !important
+  }
+  
+  .MessageView > div > div > div:nth-child(2) {
+      width: 100% !important
+  }
+  
+  .lia-message-author-avatar > .UserAvatar > img {
+      width: 40px !important;
+      height: 40px !important;
+  }
+  
+  .lia-message-author-with-avatar {
+      border: 0px !important
+  }
+  
+  .lia-message-author-with-avatar .lia-user-name-link > span {
+      color: white !important;
+      font-size: 16px
+  }
+  
+  .lia-message-author-rank {
+      color: var(--qlikColor) !important;
+      font-size: 12px !important
+  }
+  
+  .lia-message-author-rank:before {
+      content: " " !important
+  }
+  
+  .lia-message-post-date > span {
+      border: 0px !important;
+      color: var(--textColor)
+  }
+  
+  .lia-message-post-date {
+      background-color: transparent !important;
+      border: 0px !important
+  }
+  
+  .lia-message-author-with-avatar {
+      background-color: transparent !important;
+  }
+  
+  .DateTime {
+      background-color: var(--headerColor) !important;
+  }
+  
+  
+  .reply-kudo-wrap > div > div {
+      background-color: transparent !important
+  }
+  
+  .UserSignature {
+      background-color: transparent !important;
+      border: 0px !important
+  }
+  
+  /*TinyMCE*/
+  #tinymce > p {
+      margin-bottom: 0px !important;
+      background-color: var(--pageTitleBackground)
+  }
+  
+  #tinymce {
+      background: var(--pageTitleBackground) !important;
+      color: white;
+  }
+  
+  .mce-ico:before {
+      color: white !important
+  }
+  
+  .mce-flow-layout {
+      background-color: var(--backgroundColor) !important
+  }
+  
+  .mce-edit-area {
+      padding-bottom: 0px !important;
+      background-color: var(--backgroundColor) !important
+  }
+  
+  .mce-content-body {
+      border: 0px !important;
+      border-radius: 0px !important;
+  }
+  
+  .message-body-editor {
+      border: 0px !important;
+      border-radius: 0px !important;
+      padding: 0px !important;
+  }
+  
+  .lia-inline-message-body-editor {
+      border: 0px !important;
+      /******/
+  }
+  
+  .mce-toolbar-grp {
+      /*     border: 10px solid red; */
+      padding: 0px;
+      /*     border: 10px solid red; */
+  }
+  
+  #lia-mentions-block {
+      background-color: var(--headerColor) !important;
+  }
+  
+  #lia-mentions-block * {
+      color: white
+  }
+  
+  .lia-mentions-visible-item:hover {
+      background-color: var(--backgroundColor) !important;
+  }
+  
+  .lia-mentions-gte-v2-caption-li, .lia-mentions-gte-v2-caption:hover {
+      background-color: var(--headerColor) !important
+  }
+  
+  .lia-panel-message, .MessageView {
+      border: 0px !important
+  }
+  
+  /*Tell us what you think*/
+  .lia-panel-dialog-modal-valuesurvey.lia-dialog-titleless.lia-in {
+      background-color: var(--backgroundColor) !important;
+      color: white;
+  }
+  
+  .decline-survey-link {
+      background-color: red !important;
+      color: white
+  }
+  
+  /*Lang button*/
+  #locman.dropdown > a, #locman.dropdown > button {   
+      background-color: var(--headerColor) !important;
+      border: 1px solid white !important;
+      color: var(--textColor);
+  }
+  
+  #locman.dropdown > a, #locman.dropdown > button:before {   
+      right: 5px;
+      top: 15px;
+      border-top: 4px solid white !important;
+      border-left: 4px solid transparent !important;
+      border-right: 4px solid transparent !important;
+  }
+  
+  #locman.dropdown input[type="checkbox"]:checked + ul {
+      background-color: var(--headerColor) !important;
+      border: 1px solid var(--textColor) !important;
+      color: var(--textColor);
+  }
+  
+  #locman.dropdown input[type="checkbox"]:checked + ul > li > a{
+      color: var(--textColor);
+  }
+  
+  #locman.dropdown input[type="checkbox"]:checked + ul > li:hover{
+      background-color: var(--backgroundColor) !important
+  }
+  
+  /*New question*/
+  .lia-quilt-row.lia-quilt-row-standard.lia-input-edit-form-row.lia-quilt-row-first.lia-quilt-row-last > div {
+      background-color: var(--backgroundColor) !important;
+      width: 100% !important;
+      color: white !important;
+  }
+  
+  #lia-subject::placeholder {
+      color: white !important
+  }
+  
+  #lia-subject,
+  #lia-board,
+  #lia-tags {
+      background-color: var(--headerColor) !important;
+      color: white !important
+  }
+  
+  .mce-widget > button:hover {
+      background-color: var(--qlikColor) !important
+  }
+  
+  .mce-panel.mce-floatpanel {
+      background-color: var(--backgroundColor) !important;
+  }
+  
+  .mce-panel.mce-floatpanel * {
+      color: white !important
+  }
+  
+  /* textarea {
+      background-color: var(--headerColor) !important
+  } */
+  .mce-foot {
+      background-color: var(--headerColor) !important
+  }
+  
+  .mce-widget.mce-btn.mce-menubtn.mce-listbox.mce-abs-layout-item.mce-last.mce-btn-has-text {
+      background-color: var(--headerColor) !important
+  }
+  
+  .mce-widget.mce-btn.mce-abs-layout-item.mce-last.mce-btn-has-text > button {
+      background-color: var(--headerColor) !important
+  }
+  
+  
+  /*Notifications*/
+  .lia-quilt-notification-feed-item {
+      background-color: var(--headerColor) !important;
+      color: white
+  }
+  
+  #notificationList > ul,
+  #notificationList {
+      background-color: var(--backgroundColor) !important;
+  }
+  
+  /*Event cards*/
+  .event-card {
+      background-color: var(--headerColor) !important;
+      color: white !important;
+  }
+  
+  .custom-label-filter-container > .legend > button {
+      background-color: var(--headerColor) !important;
+      color: white !important
+  }
+  
+  .label-dropdown > ul > li {
+      background-color: var(--headerColor) !important;
+      color: white !important
+  }
+  
+  /*MVP Card*/
+  .mvpcard {
+      background-color: var(--headerColor) !important;
+      color: var(--textColor) !important
+  }
+  
+  .mvpcard_body_name > a {
+      color: white !important
+  }
+  
+  /* .mvpcard_cancel {
+      background-color: var(--linkColor) !important;
+      color: white !important
+  } */
+  .lia-quilt-column.lia-quilt-column-24.lia-quilt-column-single.lia-quilt-column-main-content > .lia-quilt-column-alley .container,
+  .lia-quilt-column.lia-quilt-column-24.lia-quilt-column-single.lia-quilt-column-main-content > .lia-quilt-column-alley .container > .box2 {
+      background-color: var(--headercontent) !important;
+  }
+  
+  .cardContainer > .card > .cardText > .pText2 {
+      color: white !important
+  }
+  
+  .cardContainer > .card > .cardText > a > h4 {
+      color: white !important
+  }
+  
+  .lia-quilt-column.lia-quilt-column-24.lia-quilt-column-single.lia-quilt-column-main-content > .lia-quilt-column-alley .container > .box2 > .heading {
+      color: white !important
+  }
+  
+  #search-box-autocomplete::placeholder {
+      color: white !important
+  }
+  
+  /*Inbox*/
+  #lia-conversation-context,
+  #lia-notes-thread-stream-list,
+  #notesthreadlist,
+  #lia-conversation-header,
+  .lia-component-notes-widget-threaded-note-view,
+  .lia-conversation-body.lia-component-comments,
+  .lia-form-type-text,
+  .lia-private-notes-page .private-note-conversations .lia-private-note-conversations .lia-quilt-row-main .lia-quilt-column-alley-single,
+  .lia-form-recipient-scopes-entry,
+  .lia-form-subject-entry,
+  .lia-form-footer > div,
+  .lia-form-body-entry,
+  #token-input-lia-recipientScopes,
+  .lia-form-input-wrapper > ul {
+      background-color: var(--headerColor) !important;
+  }
+  
+  .lia-note-subject,
+  .lia-note-body-container.lia-component-body,
+  .lia-form-type-text,
+  .lia-note-context-subject,
+  .lia-form-subject-entry,
+  .lia-form-recipient-scopes-entry,
+  .lia-form-body-entry {
+      color: white !important
+  }
+  
+  #notebodydisplay > p {
+      color: var(--textColor) !important
+  }
+  
+  .lia-note-body-container.lia-component-body {
+      min-height: 10px;
+      padding-bottom: 0px
+  }
+  
+  .lia-form-type-text::placeholder {
+      color: white !important;
+  }
+  
+  .lia-load-old-notes-link-container {
+      padding-top: 0px !important
+  }
+  
+  #olderNotesLink {
+      background-color: var(--backgroundColor) !important;
+      padding-top: 10px !important;
+      padding-bottom: 10px !important
+  }
+  
+  #lia-body .lia-content .lia-quilt-row-breadcrumb .page-controls,
+  .lia-quilt-row.custom-search-container,
+  .lia-top-quilt > .lia-quilt-row.lia-quilt-row-main,
+  footer .footer-container {
+      padding-left: 0px;
+  }
+  
+  #lia-body.PrivateNotesPage .lia-quilt-row.lia-quilt-row-main {
+      padding-bottom: 0px;
+      min-height: 10px;
+      margin-bottom: 0px;
+  }
+  
+  .lia-private-notes-page .lia-notes-thread-list .selected {
+      background-color: var(--backgroundColor) !important;
+  }
+  
+  #lia-notes-thread-stream-list {
+      overflow: auto;
+  }
+  
+  .lia-private-notes-page .lia-notes-thread-list .user-name .DateTime {
+      background-color: transparent !important
+  }
+  
+  #lia-searchQuery {
+      background-color: var(--backgroundColor) !important
+  }
+  
+  #dropDownLink:after {
+      color: white !important
+  }
+  
+  #lia-body.PrivateNotesPage .lia-quilt-row.lia-quilt-row-main {
+      padding: 0px;
+      margin-bottom: 0px;
+  }
+  
+  #lia-body.PrivateNotesPage .lia-quilt-column.lia-quilt-column-single.lia-quilt-column-main-content {
+      border-top: 0px solid #e7e7e7 !important;
+      border-bottom: 0px solid #e7e7e7 !important;
+  }
+  
+  #notesthreadlist {
+      border-left: 0px solid #e7e7e7 !important;
+      border-top: 0px solid #e7e7e7 !important;
+      border-right: 1px solid var(--dividerColor)
+  }
+  
+  #privateNoteConversations {
+      border-right: 0px solid var(--dividerColor) !important;
+  }
+  
+  .lia-note-content {
+      margin-left: 0px !important
+  }
+  
+  .lia-user-avatar-profile {
+      width: 30px !important;
+      height: 30px !important;
+  }
+  
+  .lia-threaded-note-view .lia-note-content {
+      border-bottom: 1px solid var(--dividerColor);
+  }
+  
+  .lia-note-description {
+      padding-bottom: 10px !important
+  }
+  
+  .report-abuse-link {
+      background-color: red !important;
+      color: white !important
+  }
+  
+  .lia-note-date.lia-note-sent-date {
+      color: var(--textColor) !important
+  }
+  
+  #deleteCurrentThread {
+      color: red !important
+  }
+  
+  .lia-notes-delete-thread > div > span {
+      background-color: red;
+      width: 40px;
+      display: flex;
+      justify-content: center;
+  }
+  
+  #lia-conversation-header {
+      border-bottom: 1px solid var(--dividerColor) !important;
+  }
+  
+  .local-date {
+      color: var(--textColor)
+  }
+  
+  #lia-body.PrivateNotesPage .lia-notes-thread-list .lia-notes-thread-stream-list {
+      min-height: 10px !important;
+      height: unset
+  }
+  
+  #lia-body.PrivateNotesPage .lia-quilt-row.lia-quilt-row-main {
+      padding-bottom: 20px;
+      background-color: var(--backgroundColor) !important;
+  }
+  
+  #lia-body .default-menu-option,
+  #lia-body .default-menu-option:hover,
+  #lia-body .default-menu-option:active,
+  #lia-body .default-menu-option:focus {
+      background-color: transparent !important
+  }
+  
+  .lia-note-subject,
+  .lia-note-body-container.lia-component-body,
+  .lia-form-type-text,
+  .lia-note-context-subject,
+  .lia-form-subject-entry,
+  .lia-form-recipient-scopes-entry,
+  .lia-form-body-entry {
+      margin: 0px !important;
+  }
+  
+  #lia-body.ViewProfilePage .lia-quilt-view-profile-page .lia-quilt-row-sub-header {
+      background-color: var(--headerColor) !important;
+  }
+  
+  .lia-activity-feed,
+  .lia-property-label.lia-data-cell-primary.lia-data-cell-text {
+      color: var(--textColor) !important
+  }
+  
+  .viewsCountColumn,
+  .messageSubjectColumn,
+  .messagePostDateColumn,
+  .lia-property-value.lia-data-cell-secondary {
+      color: var(--qlikColor) !important
+  }
+  
+  .lia-message-view-display.lia-message-view-auto-saved-draft {
+      background-color: var(--headerColor) !important
+  }
+  }
