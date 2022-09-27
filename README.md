@@ -18,6 +18,10 @@ Using [Stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahj
   ![dark-and-minimal-main](./screenshots/dark-minimal.PNG)
 
 - Applied the `qlik-community.css` to [https://community.qlik.com](https://community.qlik.com)
+
+  > **Note**
+  > Style can be installed from [userstyles.world](https://userstyles.world/style/6686/qlik-community-dark-theme)
+
   ![dark-and-minimal-main](./screenshots/community-dark.png)
 
 ## Apply to a specific domain(s)
