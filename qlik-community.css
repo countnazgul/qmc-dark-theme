@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Qlik Community Dark Theme
-@version      20220927.12.50
+@version      20220927.13.43
 @namespace    userstyles.world/user/countnazgul
 @description  Dark theme for community.qlik.com
 
@@ -41,6 +41,14 @@ Most of the colors are from qlik.dev
   }
    */
   /*Other general*/
+  .lia-notification-feed-item {
+    border: 0px solid red !important;
+  }
+
+  .lia-user-login {
+    color: var(--qlikColor) !important;
+  }
+
   .sectionContainer .header-inline-wrapper h2 {
     color: white !important;
   }
@@ -208,6 +216,10 @@ Most of the colors are from qlik.dev
     background-color: var(--pageTitleBackground) !important;
   }
 
+  .user-navigation-settings-drop-down-inner ul {
+    background-color: var(--pageTitleBackground) !important;
+  }
+
   .lia-link-navigation {
     color: var(--textColor) !important;
   }
@@ -238,7 +250,6 @@ Most of the colors are from qlik.dev
   }
 
   /*Navigation*/
-
   .header-content-search,
   .private-notes-link:before,
   .lia-notification-feed-page-link:before {
@@ -665,6 +676,7 @@ Most of the colors are from qlik.dev
   .lia-menu-navigation > .dropdown-default-item > a {
     background-color: var(--backgroundColor) !important;
     border-color: var(--backgroundColor) !important;
+    border: 0px !important;
   }
 
   .MessageView > div > div > div {
