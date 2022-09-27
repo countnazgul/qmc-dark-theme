@@ -37,10 +37,14 @@ Most of the colors are from qlik.dev
   }
 
   /* h2 {
-        color: white !important
-    }
-     */
+      color: white !important
+  }
+   */
   /*Other general*/
+  .sectionContainer .header-inline-wrapper h2 {
+    color: white !important;
+  }
+
   .lia-body .mce-window .mce-combobox,
   .lia-body .mce-window .mce-textbox {
     background-color: var(--headerColor) !important;
@@ -153,8 +157,8 @@ Most of the colors are from qlik.dev
   }
 
   /* #lia-searchformV32 > #searchautocompletetoggle > form {
-        padding-left: 0px !important;   
-    } */
+      padding-left: 0px !important;   
+  } */
   #lia-searchformV32
     > #searchautocompletetoggle
     > form
@@ -342,9 +346,10 @@ Most of the colors are from qlik.dev
     background-color: var(--altBackgroundColor) !important;
   }
 
-  /* h2 a {
-        color: var(--textColor) !important
-    } */
+  .product-card .product-details h2 a {
+    color: var(--textColor) !important;
+  }
+
   .product-details > p {
     color: var(--textColor) !important;
   }
@@ -356,8 +361,8 @@ Most of the colors are from qlik.dev
   }
 
   /* h2 a {
-        color: var(--textColor) !important
-    } */
+      color: var(--textColor) !important
+  } */
   .product-details > p {
     color: var(--textColor) !important;
   }
@@ -578,8 +583,8 @@ Most of the colors are from qlik.dev
   }
 
   /* .lia-message-body-content > p {
-        margin: 5px !important
-    } */
+      margin: 5px !important
+  } */
   .lia-link-navigation.add-tag-link {
     display: none !important;
   }
@@ -863,8 +868,8 @@ Most of the colors are from qlik.dev
   }
 
   /* textarea {
-        background-color: var(--headerColor) !important
-    } */
+      background-color: var(--headerColor) !important
+  } */
   .mce-foot {
     background-color: var(--headerColor) !important;
   }
@@ -915,9 +920,9 @@ Most of the colors are from qlik.dev
   }
 
   /* .mvpcard_cancel {
-        background-color: var(--linkColor) !important;
-        color: white !important
-    } */
+      background-color: var(--linkColor) !important;
+      color: white !important
+  } */
   .lia-quilt-column.lia-quilt-column-24.lia-quilt-column-single.lia-quilt-column-main-content
     > .lia-quilt-column-alley
     .container,
