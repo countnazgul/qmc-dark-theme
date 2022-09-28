@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Qlik Community Dark Theme
-@version      20220927.13.43
+@version      20220928.04.44
 @namespace    userstyles.world/user/countnazgul
 @description  Dark theme for community.qlik.com
 
@@ -1168,5 +1168,34 @@ Most of the colors are from qlik.dev
 
   .lia-message-view-display.lia-message-view-auto-saved-draft {
     background-color: var(--headerColor) !important;
+  }
+
+  /*Likes board*/
+  .summary-header,
+  .MessageSummary ul,
+  .lia-tabs-standard,
+  .SortingBar,
+  .UserListBlock,
+  .KudosUserTab {
+    background-color: var(--headerColor) !important;
+    color: var(--textColor);
+  }
+
+  .UserListBlock,
+  .lia-tabs-standard {
+    margin: 0px !important;
+  }
+
+  .SortingBar {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+  }
+
+  .lia-menu-bar.lia-menu-bar-top.top-block {
+    margin-bottom: 0px;
+  }
+
+  .lia-tabs-sort {
+    border: 0px !important;
   }
 }
