@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Qlik Community Dark Theme
-@version      20220929.08.13
+@version      20220929.08.36
 @namespace    userstyles.world/user/countnazgul
 @description  Dark theme for community.qlik.com
 
@@ -438,6 +438,52 @@ Most of the colors are from qlik.dev
   }
 
   /*Post*/
+  .lia-link-navigation.attachment-link {
+    color: white !important;
+  }
+
+  .bp-header {
+    background-color: var(--headerColor) !important;
+  }
+
+  .lia-lightbox-dialog,
+  .bp-header {
+    background-color: var(--headerColor) !important;
+  }
+
+  .lia-attachment-row-element {
+    background-color: var(--qlikColor) !important;
+    color: black;
+  }
+
+  /* .lia-attachment-row-element.lia-media-document {
+      display: none !important;
+  } */
+
+  .lia-attachment-row-element a:link,
+  .lia-lightbox-dialog * {
+    color: white !important;
+  }
+
+  .lia-attachment-file-size,
+  .lia-attachment-preview-tooltip {
+    color: black !important;
+  }
+
+  /* .lia-attachment-file-size:hover {
+      display: block !important
+  }
+   */
+  /* .lia-attachment-preview-tooltip {
+      display: none !important
+  }
+   */
+
+  .Attachments {
+    display: flex !important;
+    flex-direction: row !important;
+  }
+
   .solved {
     /*     border-color: var(--linkColor) !important; */
     border-top: 0px !important;
