@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Qlik Community Dark Theme
-@version      20220929.05.37
+@version      20220929.08.13
 @namespace    userstyles.world/user/countnazgul
 @description  Dark theme for community.qlik.com
 
@@ -1226,5 +1226,106 @@ Most of the colors are from qlik.dev
 
   .lia-tabs-sort {
     border: 0px !important;
+  }
+}
+
+@-moz-document domain("login.qlik.com") {
+  :root {
+    --backgroundColor: #0b1525;
+    --altBackgroundColor: #101f38;
+    --dividerColor: #4d4d4d;
+    --focusOutlineColor: #4b4b4b;
+    --headerColor: #162a4b;
+    --linkColor: #006937;
+    --pageTitleBackground: #162a4b;
+    --textColor: #ccc;
+    --qlikColor: #009845;
+    --cancelColor: #fd6ca1;
+  }
+
+  .card,
+  .auth0-lock-cred-pane.auth0-lock-quiet,
+  .app-header,
+  .loading,
+  .new-login-container,
+  .ant-input,
+  .ant-input::placeholder {
+    background-color: var(--headerColor) !important;
+    color: white;
+  }
+
+  .card-text.card-secondary-text,
+  .auth0-lock-input::placeholder,
+  .login-form--button-link.card-text {
+    color: white !important;
+  }
+
+  .auth0-lock-input,
+  .ant-col.ant-col-xs-0.ant-col-xl-2,
+  .ant-col.login-form--container-card,
+  .new-login-box {
+    background-color: var(--backgroundColor) !important;
+    color: white;
+  }
+
+  .ant-modal-content {
+    background-color: #86601c;
+  }
+
+  .ant-col.login-form--container-card {
+    margin: 0px !important;
+  }
+
+  .app-header {
+    border: 0px !important;
+  }
+
+  .login-form--action > button > span,
+  .ant-modal-confirm-title *,
+  .ant-modal-confirm-content {
+    color: var(--textColor) !important;
+  }
+
+  .page--content {
+    overflow: hidden;
+  }
+
+  .ant-row.ant-row-center.login-form--container > div:nth-child(1) {
+    display: none;
+  }
+
+  .ant-row.ant-row-center.login-form--container > div:nth-child(2) {
+    display: none;
+  }
+
+  .ant-row.ant-row-center.login-form--container > div:nth-child(4) {
+    display: none;
+  }
+
+  .ant-row.ant-row-center.login-form--container > div:nth-child(3) {
+    flex: 1 0 100%;
+    max-width: 100%;
+    align-items: center;
+  }
+
+  .ant-row.ant-row-center.login-form--container
+    > div:nth-child(3)
+    > div:nth-child(1) {
+    width: 500px;
+  }
+
+  .ant-row.ant-row-center.login-form--container
+    > div:nth-child(3)
+    > div:nth-child(2) {
+    width: 100%;
+  }
+
+  .loading,
+  .new-login-container {
+    overflow: hidden;
+  }
+
+  .login-form--card {
+    border-radius: 0px !important;
   }
 }
