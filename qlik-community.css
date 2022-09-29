@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Qlik Community Dark Theme
-@version      20220929.08.36
+@version      20220929.23.42
 @namespace    userstyles.world/user/countnazgul
 @description  Dark theme for community.qlik.com
 
@@ -10,6 +10,12 @@ Most of the colors are from qlik.dev
 ==/UserStyle== */
 
 @-moz-document domain("community.qlik.com") {
+  /* @import url(https://fonts.googleapis.com/css? family=Roboto:400,300italic,300,400italic); */
+  /* @import url(https://cdnjs.cloudflare.com/ajax/libs/hack-font/3.3.0/web/hack.min.css);
+  
+  body{
+   font-family: 'Hack', sans-serif;
+  } */
   :root {
     --backgroundColor: #0b1525;
     --altBackgroundColor: #101f38;
@@ -216,6 +222,45 @@ Most of the colors are from qlik.dev
 
   .label-link.lia-link-navigation {
     background-color: var(--headerColor) !important;
+    color: white !important;
+  }
+
+  /*Message list*/
+  #grid {
+    background-color: var(--headerColor) !important;
+  }
+
+  .UserAvatar > img {
+    width: 30px !important;
+    height: 30px !important;
+  }
+
+  .cMessageAuthorAvatarColumn {
+    padding-left: 20px !important;
+  }
+
+  .triangletop:before {
+    border-top-color: var(--qlikColor) !important;
+  }
+
+  #lia-body
+    .lia-content
+    .lia-component-forums-widget-message-list
+    .cThreadInfoColumn
+    .lia-info-area-item,
+  .admin-rank,
+  .lia-revision-info-row,
+  .rsvp-val {
+    color: var(--textColor) !important;
+  }
+
+  .lia-message-stats-count,
+  #lia-body .lia-content .pagination-recent-post a.active {
+    color: var(--qlikColor) !important;
+  }
+
+  .page_link.pagination-recent-post_page:hover,
+  #lia-body .lia-content .pagination-recent-post i {
     color: white !important;
   }
 
@@ -459,7 +504,6 @@ Most of the colors are from qlik.dev
   /* .lia-attachment-row-element.lia-media-document {
       display: none !important;
   } */
-
   .lia-attachment-row-element a:link,
   .lia-lightbox-dialog * {
     color: white !important;
@@ -478,7 +522,6 @@ Most of the colors are from qlik.dev
       display: none !important
   }
    */
-
   .Attachments {
     display: flex !important;
     flex-direction: row !important;
