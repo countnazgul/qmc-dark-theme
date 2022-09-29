@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Qlik Community Dark Theme
-@version      20220928.04.44
+@version      20220929.05.37
 @namespace    userstyles.world/user/countnazgul
 @description  Dark theme for community.qlik.com
 
@@ -41,6 +41,14 @@ Most of the colors are from qlik.dev
   }
    */
   /*Other general*/
+  .rss-thread-link:focus {
+    background-color: var(--headerColor) !important;
+  }
+
+  .related-blog-link a {
+    color: var(--textColor) !important;
+  }
+
   .lia-notification-feed-item {
     border: 0px solid red !important;
   }
@@ -293,6 +301,23 @@ Most of the colors are from qlik.dev
     border-bottom-color: var(--pageTitleBackground) !important;
   }
 
+  .nav-child-wrapper {
+    background-color: var(--backgroundColor) !important;
+  }
+
+  .depth2.custom-nav-menu-item.has-children,
+  .custom-community-header-navigation-v3 .navPrimary__subnav {
+    background-color: var(--headerColor) !important;
+  }
+
+  .custom-community-header-navigation-v3 .depth2.nav-expanded {
+    background-color: var(--backgroundColor) !important;
+  }
+
+  .nav-category {
+    color: white !important;
+  }
+
   /*Main page filters*/
   #filters {
     color: white !important;
@@ -469,6 +494,11 @@ Most of the colors are from qlik.dev
 
   .kudo-reply-container > .like-registered > span > div > a {
     color: var(--linkColor) !important;
+  }
+
+  .lia-forum-topic-page-reply-count {
+    padding-left: 20px !important;
+    padding-top: 20px !important;
   }
 
   /*User profile card*/
@@ -961,10 +991,9 @@ Most of the colors are from qlik.dev
     color: white !important;
   }
 
-  #search-box-autocomplete::placeholder {
+  #auto1 #search-box-autocomplete::placeholder {
     color: white !important;
   }
-
   /*Inbox*/
   #lia-conversation-context,
   #lia-notes-thread-stream-list,
