@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Qlik Community Dark Theme
-@version      20220929.23.42
+@version      20221001.15.59
 @namespace    userstyles.world/user/countnazgul
 @description  Dark theme for community.qlik.com
 
@@ -34,8 +34,17 @@ Most of the colors are from qlik.dev
   }
 
   /*Global*/
+  .orb-chat-mount > div > div > button {
+    box-shadow: unset;
+  }
+
   input {
     color: var(--textColor) !important;
+  }
+
+  #contributorsTaplet {
+    background: var(--altBackgroundColor) !important;
+    border: 0px !important;
   }
 
   input[type="input"] {
@@ -140,6 +149,20 @@ Most of the colors are from qlik.dev
     background: var(--headerColor) url("/html/assets/angle down.PNG") no-repeat
       calc(100% - 5px) center !important;
     color: white !important;
+  }
+
+  /*Rate page*/
+  #product-card-title {
+    background-color: var(--altBackgroundColor) !important;
+    color: var(--textColor) !important;
+  }
+
+  #lia-body .lia-product-tag-list .lia-product-list > li {
+    background-color: var(--altBackgroundColor) !important;
+  }
+
+  #lia-body .lia-product-tag-list .lia-product-list-wrapper:before {
+    color: var(--textColor) !important;
   }
 
   /*LIA*/
